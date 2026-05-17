@@ -681,10 +681,10 @@ function renderDriveFiles(files) {
   let html = '';
   Object.entries(categories).sort().forEach(([cat, items], idx) => {
     const isFirst = idx === 0;
-    const openClass = isFirst ? 'open' : '';
+    const openClass = '';
     html += `<div class="folder-section">
       <div class="folder-header" onclick="toggleFolder(this)">
-        <span class="folder-icon">${isFirst ? '📂' : '📁'}</span>
+        <span class="folder-icon">📁</span>
         <span class="folder-name">${cat}</span>
         <span class="folder-count">${items.length}</span>
         <span class="folder-chevron ${openClass}">▶</span>
