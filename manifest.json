@@ -2,7 +2,7 @@
   "name": "Vituity EM Protocol Hub",
   "short_name": "Vituity EM",
   "description": "Atlanta Vituity Emergency Medicine Protocol Hub",
-  "start_url": "/",
+  "start_url": "/em-protocols/",,
   "display": "standalone",
   "background_color": "#231F20",
   "theme_color": "#F5821F",
